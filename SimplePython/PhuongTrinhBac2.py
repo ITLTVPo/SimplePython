@@ -1,9 +1,9 @@
 print("Chương trình giải phương trình bậc hai: ax**2 + bx + c = 0")
 try:
     while(True):
-        a=int(input("a = "))
-        b=int(input("b = "))
-        c=int(input("c = "))
+        a=float(input("a = "))
+        b=float(input("b = "))
+        c=float(input("c = "))
         delta = b**2 - 4*a*c
         if delta<0: 
             print("delta = b**2 - 4*a*c = ",delta)
